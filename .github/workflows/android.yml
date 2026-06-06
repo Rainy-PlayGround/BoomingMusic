@@ -5,6 +5,7 @@ on:
     branches: [ "master", "stable" ]
   pull_request:
     branches: [ "master", "stable" ]
+  workflow_dispatch:
 
 jobs:
   check:
