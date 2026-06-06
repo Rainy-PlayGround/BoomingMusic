@@ -146,9 +146,9 @@
         android:id="@+id/actionGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
         android:gravity="center"
         android:spacing="0dp"
         app:overflowMode="none"
@@ -159,7 +159,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/repeatButton"
-            style="?materialIconButtonFilledTonalStyle"
+            style="?materialIconButtonStyle"
             android:layout_width="44dp"
             android:layout_height="44dp"
             android:insetTop="2dp"
@@ -172,7 +172,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/shuffleButton"
-            style="?materialIconButtonFilledTonalStyle"
+            style="?materialIconButtonStyle"
             android:layout_width="44dp"
             android:layout_height="44dp"
             android:insetTop="2dp"
@@ -185,7 +185,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/openQueueButton"
-            style="?materialIconButtonFilledTonalStyle"
+            style="?materialIconButtonStyle"
             android:layout_width="44dp"
             android:layout_height="44dp"
             android:insetTop="2dp"
@@ -198,7 +198,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/soundSettingsButton"
-            style="?materialIconButtonFilledTonalStyle"
+            style="?materialIconButtonStyle"
             android:layout_width="44dp"
             android:layout_height="44dp"
             android:insetTop="2dp"
@@ -211,7 +211,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/showLyricsButton"
-            style="?materialIconButtonFilledTonalStyle"
+            style="?materialIconButtonStyle"
             android:layout_width="44dp"
             android:layout_height="44dp"
             android:insetTop="2dp"
